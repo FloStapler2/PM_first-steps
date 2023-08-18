@@ -27,10 +27,13 @@ The data sources come from three different systems:
    2. **Short Event-log:** Contains only time-related informations &rarr; **Result:** [event-log_short.csv](event-log_short.csv)
   
 3. Using **ProM-tool** for analysis
-   1. Create an XES-file with the *Convert CSV to XES*-Plugin &rarr; **Result:** 
-   2. Create a ...tree
-   3. Discovery
-   4. performance 
+   1. Create an XES-file with the *Convert CSV to XES*-Plugin
+   2. A Process flow was created with the *Heuristic Miner*
+      ![Process Flow_Heuristic Miner](image/process_flow_HeuristicMiner_ProM.jpg "Process Flow mined with the Heuristic Miner")
+   3. Perform a Control flow analysis to find out the *Precision and Fitness* of the process model on the event log 
+      ![Precision and Fitness](image/precision_and_fitness_ProM.jpg "Precision and Fitness process model to Event-log")
+   4. Make a Performance analysis for time-related *Performance Evaluations*
+      ![Average sojourn time](image/time_performance_evaluations_ProM.jpg "Average sojourn time per activity")
 
 ## Useful links:
 * Faker documentation: [here](https://faker.readthedocs.io/en/master/)
