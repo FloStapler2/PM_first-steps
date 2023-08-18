@@ -1,11 +1,14 @@
 # Process_Mining_first-steps
-Synthetic data generation using Python package [Faker](https://faker.readthedocs.io/en/master/), event-log generation with Python and initial analysis using Opensource-Tool [ProM](https://promtools.org/).
+Synthetic data generation using Python package [Faker](https://faker.readthedocs.io/en/master/), event-log generation with Python and initial analysis using Open-Source-Tool [ProM](https://promtools.org/). <br>
+
+#### Tools:
+* [Jupyter Notebook](https://jupyter.org/)
+* [ProM](https://promtools.org/)
 
 ***
-These first steps and analyses with process mining were done in the context of a master thesis. To learn more about process mining and the initiation, implementation and development of process mining, the thesis ***Optimizing the Initiation of Process Mining Projects:** A strategic approach to increase maturity* can be read. 
-***
-
+These first steps and analyses with process mining were done in the context of a master thesis. To learn more about process mining and the initiation, implementation and development of process mining, the thesis ***Optimizing the Initiation of Process Mining Projects:** A strategic approach to increase maturity* can be read. <br>
 In order to choose a suitable method to carry out the process mining project, the **IID-Framework** developed in the master thesis was used. Due to the lack of experience in process mining, the **Process Diagnostics Method** (PDM) of Boskaya et al. is choosen. 
+***
 
 ### Problem:
 During the implementation of a process mining project in a manufacturing German company, it was unfortunately not possible to obtain real process data.
@@ -14,6 +17,7 @@ During the implementation of a process mining project in a manufacturing German 
 To solve the problem and to gain first experiences with process mining, synthetic data was generated. Data of a logistic process should be created.
 The article [*'Process Mining in 5 Schritten'*](https://www.informatik-aktuell.de/betrieb/kuenstliche-intelligenz/process-mining-in-5-schritten.html) was used as an example to generate the logistics data.<br>
 
+***
 ## Procedure:
 1. Creating three data sources. These are combined into one data table based on their foreign key relationships. The following code is used for this: [Faker_data_generator.ipynb](Faker_data_generator.ipynb) <br>
 
@@ -23,7 +27,7 @@ The article [*'Process Mining in 5 Schritten'*](https://www.informatik-aktuell.d
       3. **Shipping-System:** Shipping information &rarr; **Result:** [synthetic_KOM_data.csv](created_files/datatables/synthetic_KOM_data.csv)
       4. **Merged data source:** Including all information from 1, 2 & 3 &rarr; **Result:** [synthetic_merged_data.csv](created_files/datatables/synthetic_merged_data.csv)
       
-2. Using the [synthetic_merged_data.csv](synthetic_merged_data.csv) as input for [event-log_creator.ipynb](event-log_creator.ipynb), to create a Event-log. An event log was created which uses all information from the available data sets. Furthermore, an edited event log was created, which only contains entries for further use. <br>
+2. Using the [synthetic_merged_data.csv](synthetic_merged_data.csv) as input for [event-log_creator.ipynb](event-log_creator.ipynb), to create a Event-log. An Event-log was created which uses all information from the available data sets. Furthermore, an edited event log was created, which only contains entries for further use. <br>
    1. **Event-log:** Contains all informations from the provided datasets &rarr; **Result:** [event-log.csv](created_files/event-logs/event-log.csv)
    2. **Short Event-log:** Contains only time-related informations &rarr; **Result:** [event-log_short.csv](created_files/event-logs/event-log_short.csv)
   
