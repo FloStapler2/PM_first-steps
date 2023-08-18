@@ -17,7 +17,7 @@ The article [*'Process Mining in 5 Schritten'*](https://www.informatik-aktuell.d
 ## Procedure:
 1. Creating three data sources. These are combined into one data table based on their foreign key relationships. The following code is used for this: [Faker_data_generator.ipynb](Faker_data_generator.ipynb) <br>
 
-The data sources come from three different systems:
+*The data sources come from three different systems:*
    1. **Warehouse-Management-System:** Movements in the WMS &rarr; **Result:** [synthetic_WMS_data.csv](created_files/datatables/synthetic_WMS_data.csv)
    2. **Picking-System:** Picking information &rarr; **Result:** [synthetic_VER_data.csv](created_files/datatables/synthetic_VER_data.csv)
    3. **Shipping-System:** Shipping information &rarr; **Result:** [synthetic_KOM_data.csv](created_files/datatables/synthetic_KOM_data.csv)
