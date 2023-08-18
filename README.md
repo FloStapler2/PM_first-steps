@@ -1,4 +1,4 @@
-# Process_Mining_first-steps
+# Process_Mining_synthetic_data-creation
 Synthetic data generation using Python package [Faker](https://faker.readthedocs.io/en/master/), event-log generation with Python and initial analysis using Open-Source-Tool [ProM](https://promtools.org/). <br>
 
 #### Tools:
