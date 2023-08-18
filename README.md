@@ -17,10 +17,10 @@ The article [*'Process Mining in 5 Schritten'*](https://www.informatik-aktuell.d
 ## Procedure:
 1. Creating three data sources. These are combined into one data table based on their foreign key relationships. The following code is used for this: [Faker_data_generator.ipynb](Faker_data_generator.ipynb) <br>
 The data sources come from three different systems:
-   1. **Warehouse-Management-System:** Movements in the WMS &rarr; **Result:** [synthetic_WMS_data.csv](created_files/datatables/synthetic_WMS_data.csv)
-   2. **Picking-System:** Picking information &rarr; **Result:** [synthetic_VER_data.csv](created_files/datatables/synthetic_VER_data.csv)
-   3. **Shipping-System:** Shipping information &rarr; **Result:** [synthetic_KOM_data.csv](created_files/datatables/synthetic_KOM_data.csv)
-   4. **Merged data source:** Including all information from 1, 2 & 3 &rarr; **Result:** [synthetic_merged_data.csv](synthetic_merged_data.csv)
+   1. **Warehouse-Management-System:** Movements in the WMS &rarr; **Result:** [synthetic_WMS_data.csv](/created_files/datatables/synthetic_WMS_data.csv)
+   2. **Picking-System:** Picking information &rarr; **Result:** [synthetic_VER_data.csv](/created_files/datatables/synthetic_VER_data.csv)
+   3. **Shipping-System:** Shipping information &rarr; **Result:** [synthetic_KOM_data.csv](/created_files/datatables/synthetic_KOM_data.csv)
+   4. **Merged data source:** Including all information from 1, 2 & 3 &rarr; **Result:** [/created_files/datatables/synthetic_merged_data.csv](synthetic_merged_data.csv)
       
 2. Using the [synthetic_merged_data.csv](synthetic_merged_data.csv) as input for [event-log_creator.ipynb](event-log_creator.ipynb), to create a Event-log. An event log was created which uses all information from the available data sets. Furthermore, an edited event log was created, which only contains entries for further use. <br>
    1. **Event-log:** Contains all informations from the provided datasets &rarr; **Result:** [event-log.csv](event-log.csv)
