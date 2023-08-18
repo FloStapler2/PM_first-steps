@@ -24,7 +24,7 @@ The data sources come from three different systems:
       
 2. Using the [synthetic_merged_data.csv](synthetic_merged_data.csv) as input for [event-log_creator.ipynb](event-log_creator.ipynb), to create a Event-log. An event log was created which uses all information from the available data sets. Furthermore, an edited event log was created, which only contains entries for further use. <br>
    1. **Event-log:** Contains all informations from the provided datasets &rarr; **Result:** [event-log.csv](event-log.csv)
-   2. **Short Event-log:** Contains only time-related informations &rarr; **Result:** [created_files/event-logs/event-log_short.csv](event-log_short.csv)
+   2. **Short Event-log:** Contains only time-related informations &rarr; **Result:** [event-log_short.csv](created_files/event-logs/event-log_short.csv)
   
 3. Using **ProM-tool** for analysis
    1. Create an XES-file with the *Convert CSV to XES*-Plugin
