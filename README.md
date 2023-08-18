@@ -5,7 +5,7 @@ Synthetic data generation using Python package [Faker](https://faker.readthedocs
 These first steps and analyses with process mining were done in the context of a master thesis. To learn more about process mining and the initiation, implementation and development of process mining, the thesis ***Optimizing the Initiation of Process Mining Projects:** A strategic approach to increase maturity* can be read. 
 ***
 
-In order to choose a suitable method to carry out the process mining project, the **IID-Framework** developed in the master thesis was used. Due to the lack of experience in process mining, the **Process Diagnostics Method** (PDM) of Boskaya et al. is used. 
+In order to choose a suitable method to carry out the process mining project, the **IID-Framework** developed in the master thesis was used. Due to the lack of experience in process mining, the **Process Diagnostics Method** (PDM) of Boskaya et al. is choosen. 
 
 ### Problem:
 During the implementation of a process mining project in a manufacturing German company, it was unfortunately not possible to obtain real process data.
@@ -26,8 +26,8 @@ The data sources come from three different systems:
    1. **Event-log:** Contains all informations from the provided datasets &rarr; **Result:** [event-log.csv](event-log.csv)
    2. **Short Event-log:** Contains only time-related informations &rarr; **Result:** [event-log_short.csv](event-log_short.csv)
   
-3. Using ProM for analysis
-   1. Create an xes file with the ...-Plugin
+3. Using **ProM-tool** for analysis
+   1. Create an XES-file with the *Convert CSV to XES*-Plugin &rarr; **Result:** 
    2. Create a ...tree
    3. Discovery
    4. performance 
