@@ -1,11 +1,18 @@
 # Process_Mining_first-steps
 Synthetic data generation using Python package [Faker](https://faker.readthedocs.io/en/master/), event-log generation with Python and initial analysis using Opensource-Tool [ProM](https://promtools.org/).
 
+***
+These first steps and analyses with process mining were done in the context of a master thesis. To learn more about process mining and the initiation, implementation and development of process mining, the thesis ***Optimizing the Initiation of Process Mining Projects:** A strategic approach to increase maturity* can be read. 
+***
+
+In order to choose a suitable method to carry out the process mining project, the **IID-Framework** developed in the master thesis was used. Due to the lack of experience in process mining, the **Process Diagnostics Method** (PDM) of Boskaya et al. is used. 
+
 ### Problem:
-During the implementation of a process mining project in a manufacturing German company, it was unfortunately not possible to obtain real process data. 
+During the implementation of a process mining project in a manufacturing German company, it was unfortunately not possible to obtain real process data.
+
 ### Solution: 
 To solve the problem and to gain first experiences with process mining, synthetic data was generated. Data of a logistic process should be created.
-The article [*'Process Mining in 5 Schritten'*](https://www.informatik-aktuell.de/betrieb/kuenstliche-intelligenz/process-mining-in-5-schritten.html) was used as an example to generate the logistics data. 
+The article [*'Process Mining in 5 Schritten'*](https://www.informatik-aktuell.de/betrieb/kuenstliche-intelligenz/process-mining-in-5-schritten.html) was used as an example to generate the logistics data.<br>
 
 ## Procedure:
 1. Creating three data sources. These are combined into one data table based on their foreign key relationships. The following code is used for this: [Faker_data_generator.ipynb](Faker_data_generator.ipynb) <br>
