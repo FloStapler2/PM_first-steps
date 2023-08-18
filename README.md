@@ -1,4 +1,4 @@
-# PM_first-steps
+# Process_Mining_first-steps
 Synthetic data generation using Python package [Faker](https://faker.readthedocs.io/en/master/), event-log generation with Python and initial analysis using Opensource-Tool [ProM](https://promtools.org/).
 
 ### Problem:
