@@ -7,7 +7,8 @@ Synthetic data generation using Python package [Faker](https://faker.readthedocs
 
 ***
 These first steps and analyses with process mining were done in the context of a master thesis. To learn more about process mining and the initiation, implementation and development of process mining, the thesis ***Optimizing the Initiation of Process Mining Projects:** A strategic approach to increase maturity* can be read. <br>
-In order to choose a suitable method to carry out the process mining project, the **IID-Framework** developed in the master thesis was used. Due to the lack of experience in process mining, the **Process Diagnostics Method** (PDM) of Boskaya et al. is choosen. 
+In order to choose a suitable method to carry out the process mining project, the [**IID-Framework**](master_thesis_IID-Framework/thesis_artefact_IID-framework.xlsx) developed in the master thesis was used. Due to the lack of experience in process mining, the **Process Diagnostics Method** (PDM) of Boskaya et al. is choosen. <br>
+All files related to the IID-Framework can be found in the [master_thesis_IID-Framework](master_thesis_IID-Framework) folder.
 ***
 
 ### Problem:
