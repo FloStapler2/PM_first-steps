@@ -33,12 +33,13 @@ The article [*'Process Mining in 5 Schritten'*](https://www.informatik-aktuell.d
    2. **Short Event-log:** Contains only time-related informations &rarr; **Result:** [event-log_short.csv](created_files/event-logs/event-log_short.csv)
   
 3. Using **ProM-tool** for analysis
-   1. Create an XES-file with the *Convert CSV to XES*-Plugin
-   2. A Process flow was created with the *Heuristic Miner* <br>
+   1. Create an XES-file with the *Convert CSV to XES*-Plugin <br>
+      ![ProM Overview - CSV parser](/images/ProM_csv_parser.PNG "ProM Overview - CSV parser")
+   3. A Process flow was created with the *Heuristic Miner* <br>
       ![Process Flow_Heuristic Miner](/images/process_flow_HeuristicMiner_ProM.jpg "Process Flow mined with the Heuristic Miner")
-   3. Perform a Control flow analysis to find out the *Precision and Fitness* of the process model on the event log <br>
+   4. Perform a Control flow analysis to find out the *Precision and Fitness* of the process model on the event log <br>
       ![Precision and Fitness](/images/precision_and_fitness_ProM.jpg "Precision and Fitness process model to Event-log")
-   4. Make a Performance analysis for time-related *Performance Evaluations* <br>
+   5. Make a Performance analysis for time-related *Performance Evaluations* <br>
       ![Average sojourn time](/images/time_performance_evaluations_ProM.jpg "Average sojourn time per activity")
 
 ## Useful links:
