@@ -45,7 +45,7 @@ The article [*'Process Mining in 5 Schritten'*](https://www.informatik-aktuell.d
 ## Useful links:
 * Faker documentation: [here](https://faker.readthedocs.io/en/master/)
 * ProM tool: [here](https://promtools.org/)
-* Link to IID-Framework? 
+* IID-Framework: [here](/master_thesis_IID-Framework)
 
 ***
 ### Author:
